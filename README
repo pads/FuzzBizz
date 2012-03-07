@@ -1,3 +1,22 @@
+Task
+----
 Write a program that prints the numbers from 1 to 100.
 But for multiples of three print 'Fuzz' instead of the number and for the multiples of five print 'Bizz'.
 For numbers which are multiples of both three and five print 'FuzzBizz'.
+
+Prerequisites
+------------
+Java
+Gradle
+
+Help
+----
+To run the tests:
+$ gradle clean test
+
+To create an executable jar:
+$ gradle clean jar
+The jar will appear in build/libs
+
+To run the jar:
+$ java -jar FuzzBizzProgram.jar
